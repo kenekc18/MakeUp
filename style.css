@@ -1,0 +1,208 @@
+*{
+    margin:0;
+    border:0;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Red Hat Text', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+body{
+    background-color: rgb(222, 215, 215);
+    background-attachment: scroll;
+    color:#000;
+    
+}
+
+.back{
+    background-image:linear-gradient(rgba(230, 205, 114, 0.5),rgba(183, 168, 168, 0.75)),url(./element5-digital-ceWgSMd8rvQ-unsplash.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: top left;
+    height:100vh;
+    
+}
+
+.box{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height:100px;
+    font-size: 18px;
+    padding: 10px;
+    position: relative;
+}
+
+.logo img{
+    width:100px;
+    height:100px;
+    border-radius: 50px;
+    margin:10px;
+}
+
+.back ul{
+    display: flex;
+    list-style:none;
+    margin:5px 10px;
+    position: absolute;
+    right:55px;
+}
+
+.back li{
+    margin:0 10px;
+}
+
+.back a{
+    text-decoration: none;
+    color:#000;
+}
+
+.head{
+    width:100%;
+    height:500px;
+    position:relative;
+}
+
+.boxx{
+    height:300px;
+    width:500px;
+    position:absolute;
+    top:100px;
+    right:80px;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    padding:20px;
+    font-size: large;
+    
+}
+
+header h2{
+    font-weight:bolder;
+    text-transform: uppercase;
+    padding:10px 0;
+    font-size: 35px;
+    word-spacing: 5px;
+}
+
+ button{
+    border-radius: 15px;
+    padding:10px;
+    margin:20px 0;
+    background-color:transparent;
+    border: 2px solid;
+    /* font-weight: bold; */
+    cursor:pointer;
+}
+
+.content{
+    height:100vh;
+}
+
+.heading{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin:20px;
+}
+
+.content h2{
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 10px 0;
+}
+
+.content p{
+    padding:0 50px;
+
+}
+
+.article{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+}
+
+.article img{
+    width:250px;
+    height:250px;
+    object-fit: cover;
+}
+
+.container p{
+    margin: 20px 0;
+}
+
+.arti{
+    display:flex;
+    justify-content: center;
+    height:50%;
+    margin:20px;
+}
+
+
+
+.small-arti{
+    display:flex;
+    flex-direction: column;
+    height:50%;
+
+}
+
+.big-arti{
+    height:50%;
+}
+
+.girl00{
+    height: 415px;
+    width:600px;
+    padding: 0px 20px;
+
+}
+.girl00 img{
+    max-width:100%;
+    max-height:100%;
+    
+}
+.girl01{
+    height: 200px;
+    width:400px;
+    padding-bottom:20px;
+}
+.girl01 img{
+    max-width:100%;
+    max-height:100%;
+}
+
+.girl02 img{
+    max-width:100%;
+    max-height:100%;
+}
+
+footer{
+    background:rgba(230, 205, 114, 0.5) ;
+    height:250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+footer h2{
+    display: flex;
+    justify-content: center;
+}
+
+footer p{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.email{
+    display: flex;
+    justify-content: center;
+    margin:20px 0px;
+}
+
+footer label{
+    margin:0px 5px;
+}
